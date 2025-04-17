@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pwd", "pwd\pwd.csproj", "{8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ls", "ls\ls.csproj", "{95104C7F-DD10-4F9E-B413-5FB44B67CBA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cat", "cat\cat.csproj", "{7571C210-15C2-4FB9-9A28-10CBA506075E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{95104C7F-DD10-4F9E-B413-5FB44B67CBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95104C7F-DD10-4F9E-B413-5FB44B67CBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95104C7F-DD10-4F9E-B413-5FB44B67CBA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7571C210-15C2-4FB9-9A28-10CBA506075E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7571C210-15C2-4FB9-9A28-10CBA506075E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7571C210-15C2-4FB9-9A28-10CBA506075E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7571C210-15C2-4FB9-9A28-10CBA506075E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
