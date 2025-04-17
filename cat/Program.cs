@@ -1,4 +1,7 @@
-﻿public class Program
+﻿using System.Drawing;
+using Pastel;
+
+public class Program
 {
     public static void Main(string[] args)
     {
@@ -6,15 +9,15 @@
     }
     public static void CatCommand(string[] args)
     {
+        if (args.Length < 1)
+        {
+            Console.WriteLine("Не указан файл для просмотра");
+            return;
+        }
         if (args[0] == "-h" || args[0] == "-help")
         {
             Console.WriteLine("Справка: Эта команда выводит содержимое файла.\n" +
                               "cat <file> - показать содержимое файла");
-            return;
-        }
-        if (args.Length < 1)
-        {
-            Console.WriteLine("Не указан файл для просмотра");
             return;
         }
 
@@ -22,7 +25,7 @@
 
         try
         {
-            Console.WriteLine($"Содержимое файла {filePath}:");
+            Console.WriteLine($"Содержимое файла {filePath}:".Pastel(Color.Green));
             Console.WriteLine("----------------------------------------");
             using (var reader = new StreamReader(filePath))
             {
